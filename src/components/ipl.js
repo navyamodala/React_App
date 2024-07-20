@@ -6,13 +6,7 @@
 {
     title:"rcb",
     source:"https://upload.wikimedia.org/wikipedia/en/0/0a/Royal_Challengers_Bengaluru_Logo.png",
-    tropy:5,
-},
-{
-    title:"csk",
-    source:"https://i.pinimg.com/originals/39/0f/c7/390fc716070ce65f3cc496d84b909812.jpg",
-    tropy:6,
-
+    tropy:3,
 },
 {
     title:"rr",
