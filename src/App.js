@@ -1,26 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import { Heading, Heading1 } from "./components/heading";
+import Iplcard from "./components/card.js";
+import { ipl } from "./components/ipl";
 
-function App() {
-  return (
-    <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      <h1>My First React app</h1>
-    </div>
-  );
+import CustomList from "./components/customlist/custom_list";
+import Listitem from "./components/list";
+import { Accordion, Button } from "react-bootstrap";
+import Name from "./components/display_name.js";
+import Data from "./components/data.js";
+
+
+const App=()=>{
+  
+  return(
+    <>
+      {/* <Heading></Heading>      */}
+      {/* <Iplcard data={ipl}></Iplcard> */}
+      {/* <Heading1></Heading1> */}
+      {/* <CustomList list={["apple","bannana","organe"]}></CustomList>
+     <Listitem></Listitem>
+     <Accordion></Accordion>
+  
+      
+      <Button></Button>*/}
+      <Name d={Data}></Name>
+
+      
+    
+
+    </>
+
+  )
+
+
 }
 
-export default App;
+
+
+ 
+
+export default App; 

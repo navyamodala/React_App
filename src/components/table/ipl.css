@@ -1,0 +1,19 @@
+.navya{
+    border: 2px solid black;
+    color: aquamarine;
+    
+    padding: 1cap;
+    display: grid;
+    grid-template-columns: auto,auto,auto,auto;
+    column-gap: 10px;
+
+
+}
+.divya{
+    border: 2px solid black;
+    color: aquamarine;
+    
+    padding: 10px;
+
+
+}
