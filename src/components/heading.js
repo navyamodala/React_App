@@ -1,23 +1,15 @@
-import "./table/ipl.css"
-export const Heading=() =>{
+
+const Head=() =>{
     return(
         <>
         <div className="navya">
-           
-        <h2>home</h2>
-        <h2>title</h2>
-        <h2>about</h2>
-        <h2>signup</h2>
-        </div>
+        <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">player</a>
+            <a href="#">Footer</a>
+            
+             </div>
         </>
     )
- }
- export const Heading1=() =>{
-    return(
-        <div className="divya">
-            <center><h1>copied by navya</h1></center>
-        </div>
-    )
- }
-
- 
+}
+export default Head

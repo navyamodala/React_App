@@ -1,12 +1,14 @@
 import { Component } from "react";
 
-class Button extends Component{
+class Button extends Component {
     render() {
         return (
             <>
-            <h1>hello world</h1>
+            {
+                <button>{this.props.title}</button>
+            }
             </>
         )
-    }
 }
- export default Button
+}
+export default  Button
